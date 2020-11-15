@@ -12,7 +12,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     address = '127.0.0.1' # default address
-    port = 5003 # default port
+    port = 5005 # default port
     if args.host:
         address = args.host
     if args.port:
@@ -23,13 +23,6 @@ if __name__ == '__main__':
     while True:
         msg = raw_input("> ")
         server.send(msg)
-        data = server.recv(1024)
-        if data != None:
-            msg = data.decode('ascii')
-            print(msg)
-        else:
-            break
-         
     server.close()
 
 
