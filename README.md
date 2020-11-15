@@ -1,6 +1,6 @@
 # led-strip-controller
 
-# Discription
+# Description
 
 This project aims to offer a interface for displaying custom aniamtions on a ws281x individually addressable LED strip. 
 
@@ -23,14 +23,14 @@ How to use the client. (coming soon)
 If you have any feedback feel free to let me know at noahherrin@gmail.com
 # Roadmap
 
-1.0) Implementation without Interface
+1. Implementation without Interface
     - Multiple animation options.
     - Users shall be able to update active the animation by sending a request to the server.
     - Clients will have  CLI
-2.0) GUI
+2. GUI
     - (Undecided) Web App, Desktop App, Mobile App, react native?
     - Users shall be able to choose the animation and colors being used.
-2.5) GUI with advanced Customization
+2. GUI with advanced Customization
     - Users shall able to define advanced features of the animation
 
 Future)
