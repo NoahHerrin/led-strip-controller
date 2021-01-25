@@ -1,0 +1,9 @@
+Title: Network Protocols
+Author: Noah Herrin
+Created: 11/14/20
+
+Protocol for sending a command to the server
+1. Establish connection
+2. User sends command
+3. Server sends expected quantity command arguments. 
+4. Server confirms that appropriate response was recieved. 
